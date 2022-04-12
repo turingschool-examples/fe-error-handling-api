@@ -98,6 +98,20 @@ app.delete('/api/v1/sport-teams/:id', (req, res) => {
 app.get('/api/v1/animals', (req, res) => {
   res.status(200).json(app.locals.animals);
 });
+// Get one animal.
+app.get('/api/v1/animals/:id', (req, res) => {
+  let id = req.params.id
+  id = Number(id)
+  let dd = app.locals.animals.filter(item => {
+   return item.id === id
+ })
+   if(dd.length === 0){
+     res.status(500).json({
+       message: 'Internal server error'
+     })
+   }
+   res.status(200).json(dd);
+ });
 
 app.post('/api/v1/animals', (req, res) => {
   const newAnimal = req.body;
