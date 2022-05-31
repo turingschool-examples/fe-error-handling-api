@@ -7,7 +7,7 @@
 3. run `npm install`
 4. run `npm start`. The server should be running locally on port 3001 - This is a local server.  You will need to have it running in order to make calls to it.  
 5. Navigate to the endpoint you're trying to request in the browser (ie if you want to GET users, navigate to http://localhost:3001/api/v1/users in the browser). 
-6. ~The server is also deployed here https://fe2-fetch-practice.herokuapp.com/v1/users.~
+
 
 
 ## Frontend Setup
