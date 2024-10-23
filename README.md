@@ -8,8 +8,6 @@
 4. run `npm start`. The server should be running locally on port 3001 - This is a local server.  You will need to have it running in order to make calls to it.  
 5. Navigate to the endpoint you're trying to request in the browser (ie if you want to GET users, navigate to http://localhost:3001/api/v1/animals in the browser). 
 
-
-
 ## Frontend Setup
 
 In the `client` directory, there are some files we can use as a makeshift client.
@@ -23,7 +21,6 @@ In the `client` directory, there are some files we can use as a makeshift client
 - Try adding animals without putting information in all three inputs, what happens?  
   - Use your debugging skills to dig into the code and better understand what is happening here.  
 - There is no live reloading on this repo so you will have to refresh your browser any time you make changes to the js.
-- 
 
 ## Your challenge
 
